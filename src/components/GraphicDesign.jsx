@@ -54,7 +54,7 @@ export default function GraphicDesign() {
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.96, opacity: 0 }}
               onClick={(e) => e.stopPropagation()}
-              className="max-w-3xl w-full"
+              className="relative max-w-3xl w-full"
             >
               <img src={active.image} alt={active.title} className="w-full max-h-[75vh] object-contain mx-auto" />
               <div className="mt-4 text-center">

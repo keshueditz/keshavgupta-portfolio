@@ -53,6 +53,7 @@ export default function VideoCard({ project, index = 0, aspect = 'aspect-[9/16]'
             src={project.video}
             poster={project.poster}
             controls
+            autoPlay
             playsInline
             className="w-full h-full object-cover"
           />
